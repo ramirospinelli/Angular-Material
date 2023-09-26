@@ -6,17 +6,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './shared/material.module';
 import { FormsModule } from '@angular/forms';
+import { DialogComponent } from './components/dialog/dialog.component';
+import { TodoListComponent } from './components/todo-list/todo-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DialogComponent,
+    TodoListComponent
   ],
   imports: [
-    BrowserModule,
+  BrowserModule,
 	AppRoutingModule,
 	BrowserAnimationsModule,
 	MaterialModule,
-	FormsModule
+  FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

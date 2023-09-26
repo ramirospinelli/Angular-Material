@@ -1,0 +1,24 @@
+<h1 class="mat-title">TODO List</h1>
+<div class="todo-container">
+  <mat-card class="todo-card">
+    <h2 class="mat-subheading-2">To Do</h2>
+    <mat-list>
+      <mat-list-item *ngFor="let item of todoList" class="todo-item">
+        <mat-checkbox (click)="onClick(item)" >{{item.title}}</mat-checkbox>
+      </mat-list-item>
+    </mat-list>
+  </mat-card>
+
+  <mat-card class="done-card">
+    <h2 class="mat-subheading-2">Done</h2>
+    <mat-list>
+      <mat-list-item *ngFor="let item of doneList" class="done-item">
+        <div (click)="onClick(item)" matTooltip="Deshacer">{{item.title}}</div>
+      </mat-list-item>
+    </mat-list>
+  </mat-card>
+</div>
+
+<div class="add-button">
+  <button mat-raised-button (click)="openDialog()">+Agregar</button>
+</div>

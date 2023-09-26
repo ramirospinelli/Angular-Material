@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Apply styles to the main title */
+.mat-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the main container holding the cards */
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Style the TODO card */
+.todo-card {
+  width: 45%;
+  padding: 16px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Style the Done card */
+.done-card {
+  width: 45%;
+  padding: 16px;
+  background-color: #d3ffd3;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Style the list items within the cards */
+.todo-item, .done-item {
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.done-item {
+  text-decoration:line-through;
+}
+
+/* Style the "Agregar" button */
+.add-button {
+  text-align: center;
+  margin-top: 20px;
+}

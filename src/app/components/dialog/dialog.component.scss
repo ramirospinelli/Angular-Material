@@ -1,0 +1,45 @@
+/* dialog-styles.css */
+
+/* Style the dialog title */
+.mat-dialog-title {
+  font-size: 24px;
+  text-align: center;
+  background-color: #2196F3; /* Change to your preferred color */
+  color: #fff; /* Text color */
+  padding: 16px;
+  border-radius: 4px 4px 0 0; /* Rounded corners at the top */
+}
+
+/* Style the dialog content */
+.mat-dialog-content {
+  padding: 16px;
+}
+
+/* Style the form field */
+.mat-form-field {
+  width: 100%;
+}
+
+/* Style the dialog actions */
+.mat-dialog-actions {
+  justify-content: flex-end;
+  padding: 16px;
+  border-top: 1px solid #ccc; /* Add a separator line at the top of actions */
+}
+
+/* Style the "Cancel" button */
+.mat-dialog-actions button:first-child {
+  color: #2196F3; /* Change to your preferred color */
+}
+
+/* Style the "Agregar" button */
+.mat-dialog-actions button:last-child {
+  background-color: #2196F3; /* Change to your preferred color */
+  color: #fff; /* Text color */
+  margin-left: 8px;
+}
+
+/* Ensure proper spacing between buttons */
+.mat-dialog-actions button {
+  margin-left: 8px;
+}
