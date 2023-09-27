@@ -10,19 +10,15 @@ import { DialogComponent } from './components/dialog/dialog.component';
 import { TodoListComponent } from './components/todo-list/todo-list.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DialogComponent,
-    TodoListComponent
-  ],
+  declarations: [AppComponent, DialogComponent, TodoListComponent],
   imports: [
-  BrowserModule,
-	AppRoutingModule,
-	BrowserAnimationsModule,
-	MaterialModule,
-  FormsModule
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
